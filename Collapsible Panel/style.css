@@ -1,0 +1,18 @@
+﻿.post{
+    background-color:black;   
+    color:gray;
+    font-family:Helvetica;
+    font-size:24px;
+}
+
+.header{
+    background-color:white;   
+    color:black;
+    font-family:Verdana;
+}
+.content{
+    background-color:gray;
+    color:black;
+    font-family:Verdana;
+    font-size:16px;
+}
