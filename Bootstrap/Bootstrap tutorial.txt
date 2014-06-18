@@ -1,0 +1,7 @@
+Bootstrap is a webframework used for styling webpages. It's a css styler that is invoked on the HTML code by adding a class attribute to target elements.
+
+Everything is divided by rows and columns which are identified by "row" and "col-xs-<number>" [or "col-md-<number>"]. There are 12 columns on a webpage. 
+
+Naviagation bars are identified by "nav". Nav bars are created by making an unordered list. There are different styling methods to change the outlining form of the nav bar. It's as easy as adding an additional bit of text to the class attribute. Two common ones are the tab forms and the pill forms. ["nav nav-tabs" and "nav nav-pills"].
+
+Jumbotrons are banners that span the entire width of the webpage where it disregards any padding and margins of the webpage. [Identified in a div tag as "jumbotron"].
