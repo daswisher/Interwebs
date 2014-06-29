@@ -3,3 +3,4 @@ $(document).ready(function () {
         $(this).next(".content").animate({ height: "toggle" }, 250);
     });
 });
+
