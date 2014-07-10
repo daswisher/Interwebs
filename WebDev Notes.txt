@@ -1,0 +1,8 @@
+When creating websites, make sure to separate the header and footer links.
+
+Header <<< Should be site navigation links
+
+Footer <<< Support links for website and business.
+>Footer is usually divided into two parts (the top/main and the bottom)
+>>Footer top <<< Has quick links to resources
+>>Footer bottom <<< Has links about privacy, copyright, terms of use
