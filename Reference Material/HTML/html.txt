@@ -1,0 +1,11 @@
+File inclusion:
+
+In order to access files to include it within the webpage, you can use files that are within the directory, in a directory within the working directory, or up a level of the working directory. 
+>Working directory
+Simply reference the file name itself
+>Directory within the working directory
+folderName/filename.extension
+>Up a directory
+../filename.extension
+>Up a directory and in a different directory
+../folderName/filename.extension
