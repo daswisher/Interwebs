@@ -9,3 +9,4 @@ folderName/filename.extension
 ../filename.extension
 >Up a directory and in a different directory
 ../folderName/filename.extension
+***If there is a space in the file/directory name, there doesn't need to be a special character to designate the space (i.e: if we had a directory in root called "this directory" would be ../this directory/filename.extension)***
