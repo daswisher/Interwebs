@@ -1,0 +1,37 @@
+APIs (Application Programming Interfaces) are a means to create establish a functional connection between a program and an external web application. By this, there needs to be an interactive relationship between the application host (server[s]), and the program client (user/program). 
+The client/server relationship happens via HTTP (Hyper Text Transfer Protocol). The client will send a request to the server. When the server receives the request and will send a response back to the client.
+Client/server relationships are representative of REST(Representation State Transfer) which means that when you view a webpage, you're viewing the Representation. Once a link has been clicked, the web browser is then redirected to a new page. The change in pages is the State Transfer.
+There are three things that a web service/api needs in order to be deemed RESTful:
+1. Separate client from server
+2. Server doesn't hold state in between requests
+3. Uses HTTP/HTTP methods
+
+HTTP Methods:
+Here are the 4 most commonly used methods...
+GET : gets information from source
+POST : sends information to source
+PUT : updates source information
+DELETE : removes source information
+
+HTTP Request:
+Consists of 3 parts:
+1. Request line: Designates request type (HTTP Method) and a resource
+2. Header : Sends server information about the client
+3. Body : Can contain data (for POST/PUT) or be empty
+
+API Keys:
+These are long alphanumeric strings that are used to grant access to prgoram to use the API. The provider will use this key to also track service usage (There is a security application to this). OAuth is a standard protocol for API authentication (this is seen when an a link requests permission to link an app to an external account).
+Example api key: key="AILnlj341nbKlFD123jLKJkjakZXwa41234"
+
+HTTP Server Response Status Codes:
+100's: Processing request
+200's: Responding to request
+300's: Request response is on standby
+400's: Request error (client made an error)
+500's: Server error (server fails to respond)
+
+HTTP Response:
+Consists of 3 parts:
+1. Response line : includes the status code (as described above)
+2. Header : includes more server information and response
+3. Body : text of response
