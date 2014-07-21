@@ -54,4 +54,21 @@ Example: There is a pet tag that has information about that pet we can return
 	</pet>
 </pets>
 
+JSON (JavaScript Object Notation) is an alternative to XML. The difference between JSON and XML is similar in the difference between Javascript and HTML. Referring to the previous material in the XML example, the following is a demonstration of how to essentially perform operation.
 
+{
+	"pets": {
+		"name": "Jeffrey",
+		"species": "Giraffe"
+		},
+		{
+		"name": "Gustav",
+		"species": "Dog"
+		},
+		{
+		"name": "Gregory",
+		"species": "Duck"
+		}
+}
+
+To determine if the API will reply with XML or JSON should be provided in the API's documentation.
