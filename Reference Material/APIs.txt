@@ -35,3 +35,23 @@ Consists of 3 parts:
 1. Response line : includes the status code (as described above)
 2. Header : includes more server information and response
 3. Body : text of response
+
+It is possible to parse in XML (eXtensible Markup Language). The reason for using xml is it can have custom tags that the API can use in a response to a request.
+Example: There is a pet tag that has information about that pet we can return
+
+<pets>
+	<pet>
+		<name>Jeffery</name>
+		<species>Giraffe</species>
+	</pet>
+	<pet>
+		<name>Gustav</name>
+		<species>Dog</species>
+	</pet>
+	<pet>
+		<name>Gregory</name>
+		<species>Duck</species>
+	</pet>
+</pets>
+
+
