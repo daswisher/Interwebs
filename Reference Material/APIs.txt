@@ -72,3 +72,5 @@ JSON (JavaScript Object Notation) is an alternative to XML. The difference betwe
 }
 
 To determine if the API will reply with XML or JSON should be provided in the API's documentation.
+
+Scopes are used to restrict token usage. Scopes can also have subscopes (denoted by : ). Sometimes APIs provide token information (i.e. user/owner, privileges, etc) via requests.
