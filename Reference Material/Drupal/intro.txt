@@ -69,3 +69,58 @@ Things drupal can't do:
 	filter:only certain types
 	sort: alphabetical/by hits/most comments
 
+<b>Data Analytics and the Day After</b>
+Use information/data analytics/data science to optimize websites
+Gather statistics on male/female ratios, age groups
+It's difficult to determine website optimization ROI (return of investment)
+	Beat this by establish a baseline (ie monitor when new customers start using their account or when people start working with their new cards)
+	Standardize metrics (traffic/time or traffic/dollar spent)
+	Automate workflow/visuals/metrics
+Generate feedback about system
+	surveys
+	feedback
+	direct contact
+	user activity
+	usability tests
+Try to maximize sample test group size
+Create a logging system
+	Be decisive about what information you store
+		makes it easier to sort and investigate
+	look for oddities in data to differentiate visitors
+capture behaviors
+	google analytics-takes all data
+	KISSmetrics-session data
+	Mixpanel-session data
+	Custom event logger-helps you get the data you're looking for
+Custom logger
+	timestamp, event name/value, uid, url, session_id
+Reasons for custom
+	php == more reliable than js
+	track across multiple channels (i.e email, sms, etc)
+Cons of custom
+	session cookies cost to implement for each user
+Workaround cons
+	use some js
+	buy more servers
+	use big data storage
+Performance
+	handles over 3 million user events daily
+	check user agents
+	check what bots are doing
+***Note: build your business off of brands people already know/love***
+	card.com uses seasame street as a custom card photo/design
+Analyze customer usage to determine how well features are being advertised
+	Use targeted advertisements to redirect customers
+R is good for data analytics
+	good for dataset manipulation
+	built-in statistic tools
+	open-source
+	seamless integration to hadoop
+ggplot for visual plots (great graphics library)
+schedule reporting
+	script it to report on a regular and visual
+	jenkins does archiving,cleaning,reporting
+other logs
+	php error/apache error/drupal (watchdog)/any other system monitors
+	Use to correlate and find bugs/issues in system
+review data collection on a weekly basis to determine if you're getting what you need or if you need to change the system that has been implemented
