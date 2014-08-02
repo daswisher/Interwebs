@@ -53,6 +53,19 @@ Use Views (Also eliminates wrappers/and cuts down on the number of classes that 
 
 Removing div layers increases efficiency and improves readability by users and bots by improving general semantics
 
+Panels
+	Never use the flexible panel builder because it uses an excessive number of div wrappers
+	Clean markup or foundation is ideal <<still need to cleanup the wrappers>>
+		Change the style options <<clean panel is nice as well as no mark up at all>>
 tl;dr:
 Eliminate as many wrappers and class calls as possible to improve site responsiveness/speed
 ALWAYS CLEAR CACHE AFTER ANY MODIFICATION!
+
+<b>Intro to Views</b>
+Things drupal can't do:
+	display: page/block/rss
+	format: table/grid/slideshow
+	fields: author/date/terms
+	filter:only certain types
+	sort: alphabetical/by hits/most comments
+
