@@ -124,3 +124,43 @@ other logs
 	php error/apache error/drupal (watchdog)/any other system monitors
 	Use to correlate and find bugs/issues in system
 review data collection on a weekly basis to determine if you're getting what you need or if you need to change the system that has been implemented
+
+<b>Getting SASS-y with Foundation</b>
+Requirements
+http://git-scm.com/
+node.js
+ruby
+bundler(a package manager)
+
+install drupal.org/project/zurb_foundation to sites/all/themes
+install and update jQuery
+
+monitor compass
+sass (scss files) allow for nesting 
+	Example:
+	ul{
+		/*stuff*/
+	}
+	ul li{
+		/*more stuff*/
+	}
+
+	would be
+	ul{
+		/*stuff*/
+		li{
+			/*more stuff*/
+		}
+	}
+***Note: sass also allows for verbal modifications on colors***
+Example:
+	background-color: $site_color;
+	color: $darker_site_color;
+
+	would be
+
+	background-color: $site_color;
+	color: darken($site_color, 10%);
+
+***GET CODEKIT IT RUNS COMPASS EVERYTIME A FILE IS SAVED***
+
