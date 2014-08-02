@@ -34,3 +34,25 @@ function(){
 	$path = drupal_get_path('<module>','<module>');
 	drupal_add_js($path '<file with the javascript>');//JS can be added in the .info file instead of the module
 }
+
+<b>Lean Drupal Markup</b>
+
+Clean writing allows for efficiency, speed, easier to read writing
+/*
+This session goes over cleaning up the following:
+Fields 
+Views
+Panels
+*/
+Fields
+Use the fences module (eliminates field wrappers)
+	Fences
+	
+Use Views (Also eliminates wrappers/and cuts down on the number of classes that drupal associates with some of the wrappers)
+	Take off default drupal values to cut div layers
+
+Removing div layers increases efficiency and improves readability by users and bots by improving general semantics
+
+tl;dr:
+Eliminate as many wrappers and class calls as possible to improve site responsiveness/speed
+ALWAYS CLEAR CACHE AFTER ANY MODIFICATION!
