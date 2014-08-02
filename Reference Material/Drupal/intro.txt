@@ -1,0 +1,36 @@
+<b>Beginners Module Development</b>
+Hooks are functions called during execution
+Module changes to content/functionality with hooks
+
+Hook tools:
+hook_init()
+hook_form_alter()
+
+hook_menu()
+hook_node_presave()
+hook_form_FORM_ID_alter()
+hook_form_BASE_FORM_ID_alter()
+
+"Every time you hack core. God kills a kitten"
+Kill all kittens!!!
+
+Modules directory is where core modules exist.
+Put custom modules in new contrib/custom modules directory in sites/all/modules
+
+Search drupal before developing a module for reference
+Check irc for help
+
+Always clear cache (use drush aka drupal shell)
+//Modules use php
+function(){
+	/*
+	dnp(arg);
+	dpn("You are on the config page");
+	*/
+	$args = arg();	
+	dpn($form);//This will print everything from the form
+	//PHP always passes objects in by refernce so it's unnecessary to use the ampersand in the paramters to pass it in by reference
+	//This is to add js/jQuery
+	$path = drupal_get_path('<module>','<module>');
+	drupal_add_js($path '<file with the javascript>');//JS can be added in the .info file instead of the module
+}
