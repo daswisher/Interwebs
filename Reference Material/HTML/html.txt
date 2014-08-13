@@ -1,5 +1,5 @@
 DOM:
-Also known as Document Object Model, is a way to represent the structural hierarchy of elements within an html document. Simply, it's a tree diagram that demonstrates element nesting.
+Also known as Document Object Model, is a way to represent the structural hierarchy of elements within an html document. Simply, it's a tree diagram that demonstrates element nesting. The element that is being looked at is what is selected. The element that the selected item is in, is the parent. Any elements that the selected element contains are known as child elements. Elements that are children of the same parent are known as siblings.
 
 
 File inclusion:
