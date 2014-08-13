@@ -1,3 +1,7 @@
+DOM:
+Also known as Document Object Model, is a way to represent the structural hierarchy of elements within an html document. Simply, it's a tree diagram that demonstrates element nesting.
+
+
 File inclusion:
 
 In order to access files to include it within the webpage, you can use files that are within the directory, in a directory within the working directory, or up a level of the working directory. 
