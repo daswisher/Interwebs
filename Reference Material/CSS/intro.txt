@@ -1,0 +1,27 @@
+CSS (Cascading style sheets) is a way to change the visual apperance of html pages. It works by selecting a specific attribute, and then provides the styling settings within a block of code.
+
+Example:
+We want to change the background color of elements of <p> along with its text color...
+
+p {
+	background-color: blue;
+	color: yellow;
+}
+
+We can use css to change specific additional attributes as well. This is useful if we're trying to modify a link color as well as its color when it's being hovered over. In order to select he property of the elemnt, we use a colon after the element followed by the property.
+
+Example:
+
+a {
+	color: black;
+}
+
+a:hover {
+	color: white;
+}
+
+Some other things we can change on a link are the following...
+a:link <<<Unvisited link
+a:visited <<<Visited link
+a:hover <<<When mouse hovers over link
+a:active  <<<When the link is clicked
