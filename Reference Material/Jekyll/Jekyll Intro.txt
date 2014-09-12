@@ -1,0 +1,11 @@
+Using Jekyll with GitHub:
+Jekyll makes versions available that are ahead of versions that are compatible with GitHub. It's ideal to go through the GitHub Jekyll install instructions if it is planned to host a Jekyll on a GitHub page.
+
+Installation/Setup:
+	Windows:
+		In order to use jekyll, it's necessary to install ruby to begin installing anything else.
+
+Usage:
+To create a new static website, type the following:
+Jekyll site <Your site's name>
+This will automatically generate all of the boilerplate code and directories.
