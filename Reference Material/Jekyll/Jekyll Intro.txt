@@ -3,9 +3,22 @@ Jekyll makes versions available that are ahead of versions that are compatible w
 
 Installation/Setup:
 	Windows:
-		In order to use jekyll, it's necessary to install ruby to begin installing anything else.
+		In order to use jekyll, it's necessary to install ruby to begin installing anything else. As well as the devkit that is also found on the rubyinstaller page. Make sure to use the devkit that corresponds to the version of ruby being used as well as the CPU architecture in the system. Once ruby is installed, extract devkit. There will be two commands that need to be executed from the command line in the devkit folder:
+	ruby dk.rb init
+	ruby dk.rb install
+Usage with github is going to require additional installation. Python 2 will need to be installed and there are a couple of gems that’ll need to be installed.
+Navigate to where the site is going to be built, and create a file named “Gemfile.” In the gemfile, it needs to contain the following:
+	source 'https://rubygems.org'
+	gem 'github-pages'
+Now to install the gems. Use the following:
+	gem install bundler
+	bundle install
 
 Usage:
 To create a new static website, type the following:
 Jekyll site <Your site's name>
 This will automatically generate all of the boilerplate code and directories.
+
+To test the site locally after the site has been initialized, type the following:
+	bundle exec Jekyll serve
+Then in the web browser, navigate to localhost:4000.
